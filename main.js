@@ -24,10 +24,10 @@ zCanv.width = wid;
 cM.strokeStyle
 
 image = new Image();
-proLink = prompt("hii","ruins.jpg");
+proLink = prompt("\tWellcome Again everyone 🦧\n__________________________\n\n\t🏞️If\n\t you have any image link Please Enter \n\tif not press cancel: \n__________________________\n\n\t it's support all type image  eg - \n\t any resolution, any size, any format's - (Maybe 🧐) \n__________________________\n\n \t Please comment us & share your experience\n__________________________\n\n\n","https://raw.githubusercontent.com/Monu-Parashar/Image-Zooming-Canvas/master/ruins.jpg");
 if (proLink) {
   image.src = proLink;
-} else {image.src = "ruin.jpg";};
+} else {image.src = "https://raw.githubusercontent.com/Monu-Parashar/Image-Zooming-Canvas/master/ruins.jpg";};
 
 
 image.onerror = function(e){alert("Error:\n\nPlease enter a valid url\n\n(Refresh the window or comment if you see error)");window.location.reload(true);};
